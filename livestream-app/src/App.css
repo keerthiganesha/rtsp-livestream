@@ -1,0 +1,21 @@
+/* src/App.css */
+.video-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay h2,
+.video-overlay img {
+  cursor: move;
+  user-select: none;
+  z-index: 2; /* Ensure the overlay elements are on top */
+}
+.video-overlay input[type='text'] {
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
